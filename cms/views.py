@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
+from cms.models import Book
+from cms.forms import BookForm
 
 def book_list(request):
     """書籍の一覧"""
